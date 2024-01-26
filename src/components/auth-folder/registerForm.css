@@ -1,0 +1,149 @@
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+  }
+  
+  .wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.1;
+  }
+  
+  .wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+  
+  .input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+  }
+  
+  .input-box input::placeholder {
+    color: #fff;
+  }
+  
+  .input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    transform: translateY(-35px);
+    font-size: 16px;
+  }
+  
+  .wrapper button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  button:hover {
+    color: black;
+    background: lightgray;
+  }
+  
+  button:focus,
+  button:focus-visible {
+    background: blue;
+    color: #fff;
+    outline: 4px auto white;
+  }
+  
+  .wrapper .login-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 10px;
+  }
+  
+  .login-link p a {
+    display: block;
+    color: darkblue;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .login-link p a:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+
+  .error-message {
+    text-align: center;
+    color: #ff0000; /* Red color for error messages */
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .success-message {
+    text-align: center;
+    color: #008000; /* Green color for success messages */
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .loading-message {
+    text-align: center;
+    color: #0000ff; /* Blue color for loading messages */
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+
+  
+:root {
+  font-family: "Poppins", "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --twinkle-duration: 4s;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+body.register-form-page {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 320px;
+  background: url("../Assets/starry-night-sky-sailboat-milky-way.jpg");
+  background-size: cover;
+  background-position: center;
+}

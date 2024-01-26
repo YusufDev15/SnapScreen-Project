@@ -1,0 +1,139 @@
+.photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-card {
+  transition: transform 0.3s ease-in-out;
+  max-width: 100%;
+  min-width: 200px;
+  overflow: hidden;
+}
+
+.photo-card:hover {
+  transform: scale(1.05);
+}
+
+.image-details {
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.expanded {
+  height: auto !important;
+  transition: height 0.3s ease-in-out;
+}
+
+.container {
+  position: relative;
+  color: wheat;
+}
+
+.expanded-content span {
+  margin-right: 10px;
+}
+
+.expanded-content span svg {
+  vertical-align: middle;
+}
+
+.expanded-content span .heart-icon {
+  color: red;
+}
+
+.expanded-content span .download-icon {
+  color: #32BDEF;
+  
+}
+
+.expanded-content .cool-description {
+  font-family: cursive;
+  font-size: 16px;
+  color: #e9ed04;
+  margin-bottom: 10px;
+}
+
+.expanded-content .cool-author {
+  font-family: cursive;
+  font-size: 18px;
+  color: #3498db;
+}
+
+.expanded-card {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+  z-index:10;
+}
+
+.expanded-content {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.expanded-card .expanded-content {
+  display: block;
+}
+
+.expanded-content span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.expanded-content p {
+  margin-bottom: 0;
+}
+
+.cool-description,
+.cool-author {
+  margin: 10px 0;
+  color: white !important;
+}
+
+.cool-author button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.cool-author button:hover {
+  color: red;
+}
+
+.cool-author-button:hover {
+  background-color: transparent !important;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.heart-icon,
+.download-icon {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+
+@keyframes slideup {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-slideup {
+  animation: slideup 0.5s ease-in-out;
+}
