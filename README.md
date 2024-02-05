@@ -73,8 +73,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 - **Teammates:** Heartfelt appreciation to all my teammates who contributed their time, skills, and enthusiasm to make SnapScreen a successful project. Your collaboration has been invaluable.
   
-- **Student Success Advisor:** Heartfelt thanks to "Yolanda Acona Hughes" for her continuous support, guidance, and encouragement. Your role in our success has been invaluable.
-  
 ## Acknowledgments
 
 - Special thanks to the Unsplash API for providing a vast collection of high-quality images.
