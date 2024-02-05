@@ -35,7 +35,7 @@ SnapScreen is an innovative image preview application that empowers users to vis
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/KiranPandranki17/SnapScreen-Project-2-Bootcamp.git`
+1. Clone the repository: `git clone git@github.com:YusufDev15/SnapScreen-Project.git`
 2. Change into the project directory: `cd snapscreen`
 3. Install dependencies: `npm install`
 
